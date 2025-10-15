@@ -1,6 +1,6 @@
 <?php
 $pageName = "Produtos";
-include $_SERVER['DOCUMENT_ROOT'].'/projetoTeste/components/header.php';?>
+include $_SERVER['DOCUMENT_ROOT'].'/icecreamcompany/components/header.php';?>
 
 <main>
     <h1>Produtos</h1>
@@ -18,5 +18,5 @@ include $_SERVER['DOCUMENT_ROOT'].'/projetoTeste/components/header.php';?>
 </main>
 
 <?php 
-    include $_SERVER['DOCUMENT_ROOT'].'/projetoTeste/components/footer.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/icecreamcompany/components/footer.php';
 ?>

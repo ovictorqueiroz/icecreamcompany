@@ -1,11 +1,11 @@
 <?php
 $pageName = 'Sobre Nós';
-include $_SERVER['DOCUMENT_ROOT'].'/projetoTeste/components/header.php';?>
+include $_SERVER['DOCUMENT_ROOT'].'/icecreamcompany/components/header.php';?>
 
 <main>
     <h1>Sobre Nós</h1>
 </main>
 
 <?php 
-    include $_SERVER['DOCUMENT_ROOT'].'/projetoTeste/components/footer.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/icecreamcompany/components/footer.php';
 ?>
