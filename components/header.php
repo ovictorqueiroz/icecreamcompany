@@ -21,7 +21,9 @@
           <li><a href="/icecreamcompany/pages/sobre.php">Sobre Nós</a></li>
           <li><a href="/icecreamcompany/pages/produtos.php">Produtos</a></li>
           <li><a href="/icecreamcompany/pages/contatos.php">Contatos</a></li>
+          <li><a href="/icecreamcompany/pages/login.php">Login</a></li>
           <li><a href="/icecreamcompany/pages/cadastro.php">Cadastro</a></li>
+        
       </nav>
     
     </header>
