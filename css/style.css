@@ -12,6 +12,7 @@
   list-style: none;
   text-decoration: none;
   font-family: Comfortaa;
+  
 }
 
 body, html{
@@ -38,7 +39,7 @@ header{
   justify-content: space-around;
   width: 100%;
   background-color: hsl(282, 50%, 50%);
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 0.5rem;
 
 }
