@@ -1,3 +1,5 @@
+@import url(./variables.css);
+
 @font-face {
   font-family: Comfortaa;
   src: url(../fonts/Comfortaa-Regular.ttf) format('truetype');
@@ -41,7 +43,7 @@ header{
   background-color: hsl(282, 50%, 50%);
   padding: 15px;
   margin-bottom: 0.5rem;
-
+  
 }
 
 nav {
@@ -49,11 +51,12 @@ nav {
   display: flex;
   gap: 10px;  
   justify-content: space-around;
-  align-items: center;
   height: 4rem;
+  align-items: center;
 }
 
 nav li a {
+  text-decoration: none;
   color: white;
 }
 
@@ -73,19 +76,24 @@ nav li a {
 }
 
 footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 1rem;
   width: 100%;
   height: 2rem;
+  padding: 5px;
   font-size: small;
   color: #ffffff;
   background-color: hsl(282, 50%, 50%);
 }
 
+footer p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1{
   align-items: center;
-  color: hsl(282, 50%, 50%);
+  color: #9940bf;
   margin: 1rem;
 }
 
@@ -115,4 +123,20 @@ h1{
   height: 2rem;
   padding: 0.25rem;
   margin: 0.25rem;
+}
+
+.btn{
+align-self: center;
+}
+
+.btn-primary{
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  
+}
+
+.btn-secondary{
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+  align-self: center;
 }
